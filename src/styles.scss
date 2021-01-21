@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* You can add global styles to this file, and also import other style files */
+
+.popup-related-container mat-dialog-container::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    transform: rotate(-45deg);
+    background: #fff;
+    position: absolute;
+    z-index: 0;
+    left: -8px;
+    top: 8px;
+}
+
+.popup-related-container {
+    position: relative !important;
+}
